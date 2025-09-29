@@ -243,6 +243,11 @@ int main() {
     return 0;
 }
 ```
+### Output Unguided 2 :
+
+##### Output 1
+![Screenshot Output Unguided 1_2](https://raw.githubusercontent.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/master/Pertemuan1_Modul1/LAPRAK1/Hakan_Ismail_Afnan-Unguided2.png)
+
 Program ini berfungsi untuk mengubah angka (0–100) menjadi bentuk kata dalam bahasa Indonesia.
 
 ### 3. Diagram Visual
@@ -288,49 +293,12 @@ int main() {
     return 0;
 }
 ```
-Program ini mencetak pola segitiga angka simetris dengan bintang di tengah setiap baris, diakhiri dengan satu bintang pada baris paling bawah.
-
-
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 1 
-
-### 2. (isi dengan soal unguided 2)
-
-```C++
-source code unguided 2
-```
-### Output Unguided 2 :
-
-##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 2
-
-### 3. (isi dengan soal unguided 3)
-
-```C++
-source code unguided 3
-```
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://raw.githubusercontent.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/master/Pertemuan1_Modul1/LAPRAK1/Hakan_Ismail_Afnan-Unguided3.png)
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-penjelasan unguided 3
+Program ini mencetak pola segitiga angka simetris dengan bintang di tengah setiap baris, diakhiri dengan satu bintang pada baris paling bawah.
 
 ## Kesimpulan
 ...
