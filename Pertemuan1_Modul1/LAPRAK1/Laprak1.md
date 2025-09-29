@@ -2,7 +2,6 @@
 <p align="center">Hakan Ismail Afnan - 103112400038</p>
 
 ## Dasar Teori
-## Dasar Teori
 
 **Pemrograman komputer** adalah proses membuat perangkat lunak dengan menulis kode menggunakan bahasa pemrograman tertentu. Salah satu bahasa pemrograman yang banyak digunakan adalah **C++**, yang merupakan pengembangan dari bahasa C dan mendukung pemrograman prosedural maupun berorientasi objek[1]. Pemrograman dalam C++ memungkinkan pengembangan aplikasi yang terstruktur, efisien, dan fleksibel.
 
