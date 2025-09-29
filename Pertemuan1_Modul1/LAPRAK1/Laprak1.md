@@ -334,5 +334,6 @@ Struktur kontrol seperti percabangan (if-else, switch-case) dan perulangan (for,
 Program yang dibuat selama praktikum menunjukkan penerapan dasar teori, mulai dari input-output sederhana, kalkulator aritmatika, perbandingan angka, hingga pencetakan pola dan pengelolaan data siswa.
 
 ## Referensi
-<br>[1] Triase. (2020). Diktat Edisi Revisi: STRUKTUR DATA. Medan: Universitas Islam Negeri Sumatera Utara Medan.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+[1]Indahyanti, U., & Yunianita, R. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+
+[2]Wijoyo, A., Prasetiyo, A. R., Salsabila, A. A., Nife, K., Murni, & Nadapdap, P. B. (2024). Evaluasi Efisiensi Struktur Data Linked List pada Implementasi Sistem Antrian. JRIIN: Jurnal Riset Informatika Dan Inovasi, 1(12), 1244–1246. Diakses dari https://jurnalmahasiswa.com/index.php/jriin/article/view/1060.
