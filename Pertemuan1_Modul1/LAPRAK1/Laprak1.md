@@ -2,9 +2,33 @@
 <p align="center">Hakan Ismail Afnan - 103112400038</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Bahasa pemrograman C++ adalah bahasa pemrograman tingkat menengah yang mendukung paradigma pemrograman prosedural dan pemrograman berorientasi objek (OOP)[1]. C++ dikembangkan sebagai pengembangan dari bahasa C, sehingga tetap memiliki sintaks dasar C namun dilengkapi dengan fitur OOP seperti class, object, dan inheritance[2].
+
+Dalam C++, input dan output dilakukan menggunakan stream yang diwakili oleh objek cin dan cout. cin digunakan untuk membaca data dari pengguna, sedangkan cout digunakan untuk menampilkan data ke layar[2].
+
+Struktur data sederhana seperti variabel digunakan untuk menyimpan informasi sementara dalam program. Variabel memiliki tipe data, contohnya int untuk bilangan bulat dan float untuk bilangan desimal. Penggunaan tipe data yang sesuai sangat penting agar operasi aritmatika dan logika berjalan dengan benar[1].
+
+Kontrol alur program merupakan bagian penting dalam pemrograman C++. Terdapat beberapa struktur kontrol utama:
+
+Percabangan (if-else dan switch-case)
+
+Digunakan untuk membuat keputusan berdasarkan kondisi tertentu.
+
+if-else mengeksekusi blok kode jika kondisi bernilai benar, sementara switch-case lebih efisien untuk memilih di antara beberapa nilai konstan[2].
+
+Perulangan (for, while, do-while)
+
+Digunakan untuk mengeksekusi blok kode berulang kali hingga kondisi tertentu terpenuhi.
+
+for biasanya digunakan ketika jumlah iterasi diketahui, sedangkan while dan do-while cocok untuk kondisi yang bergantung pada logika tertentu[1].
+
+Array dan struct
+
+Array adalah kumpulan data dengan tipe yang sama yang disimpan secara berurutan dalam memori.
+
+Struct adalah tipe data bentukan yang memungkinkan kita menyimpan beberapa variabel dengan tipe berbeda dalam satu kesatuan. Penggunaan struct sangat berguna untuk merekam data kompleks, seperti data rapot siswa yang terdiri dari nama dan nilai[1][2].
+
+Dengan kombinasi variabel, kontrol alur, loop, array, dan struct, program dapat melakukan berbagai fungsi mulai dari kalkulator sederhana hingga pengolahan data siswa[1][2].
 
 ## Guided 
 
@@ -301,9 +325,14 @@ int main() {
 Program ini mencetak pola segitiga angka simetris dengan bintang di tengah setiap baris, diakhiri dengan satu bintang pada baris paling bawah.
 
 ## Kesimpulan
-...
+Bahasa C++ memungkinkan pembuatan program dengan struktur prosedural maupun berorientasi objek, sehingga fleksibel dalam pengembangan aplikasi.
+
+Penggunaan variabel, array, dan struct memudahkan penyimpanan dan pengolahan data.
+
+Struktur kontrol seperti percabangan (if-else, switch-case) dan perulangan (for, while, do-while) sangat penting untuk membuat program yang dinamis dan interaktif.
+
+Program yang dibuat selama praktikum menunjukkan penerapan dasar teori, mulai dari input-output sederhana, kalkulator aritmatika, perbandingan angka, hingga pencetakan pola dan pengelolaan data siswa.
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+<br>[1] Triase. (2020). Diktat Edisi Revisi: STRUKTUR DATA. Medan: Universitas Islam Negeri Sumatera Utara Medan.
+<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
