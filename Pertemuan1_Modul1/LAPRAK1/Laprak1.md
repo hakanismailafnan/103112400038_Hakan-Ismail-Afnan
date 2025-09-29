@@ -2,33 +2,21 @@
 <p align="center">Hakan Ismail Afnan - 103112400038</p>
 
 ## Dasar Teori
-Bahasa pemrograman C++ adalah bahasa pemrograman tingkat menengah yang mendukung paradigma pemrograman prosedural dan pemrograman berorientasi objek (OOP)[1]. C++ dikembangkan sebagai pengembangan dari bahasa C, sehingga tetap memiliki sintaks dasar C namun dilengkapi dengan fitur OOP seperti class, object, dan inheritance[2].
+## Dasar Teori
 
-Dalam C++, input dan output dilakukan menggunakan stream yang diwakili oleh objek cin dan cout. cin digunakan untuk membaca data dari pengguna, sedangkan cout digunakan untuk menampilkan data ke layar[2].
+**Pemrograman komputer** adalah proses membuat perangkat lunak dengan menulis kode menggunakan bahasa pemrograman tertentu. Salah satu bahasa pemrograman yang banyak digunakan adalah **C++**, yang merupakan pengembangan dari bahasa C dan mendukung pemrograman prosedural maupun berorientasi objek[1]. Pemrograman dalam C++ memungkinkan pengembangan aplikasi yang terstruktur, efisien, dan fleksibel.
 
-Struktur data sederhana seperti variabel digunakan untuk menyimpan informasi sementara dalam program. Variabel memiliki tipe data, contohnya int untuk bilangan bulat dan float untuk bilangan desimal. Penggunaan tipe data yang sesuai sangat penting agar operasi aritmatika dan logika berjalan dengan benar[1].
+**Algoritma** adalah urutan langkah-langkah logis yang digunakan untuk menyelesaikan suatu masalah secara sistematis. Algoritma menjadi dasar bagi pembuatan program karena setiap program merupakan implementasi dari algoritma tertentu dalam bentuk kode[1].  
 
-Kontrol alur program merupakan bagian penting dalam pemrograman C++. Terdapat beberapa struktur kontrol utama:
+Dalam C++, program biasanya terdiri dari beberapa elemen dasar, antara lain:
 
-Percabangan (if-else dan switch-case)
+- **Header Files**: Bagian awal program yang menyertakan pustaka standar, misalnya `#include <iostream>` untuk operasi input-output[2].  
+- **Fungsi `main()`**: Fungsi utama yang menjadi titik masuk eksekusi program[2].  
+- **Variabel dan Tipe Data**: Variabel digunakan untuk menyimpan data, seperti `int` untuk bilangan bulat dan `float` untuk angka desimal[2].  
+- **Struktur Kontrol**: `if`, `switch`, `for`, `while`, dan `do-while` digunakan untuk mengatur alur eksekusi program[2].  
+- **Struktur Data**: Array dan struct digunakan untuk menyimpan dan mengelola data secara terstruktur[1].  
 
-Digunakan untuk membuat keputusan berdasarkan kondisi tertentu.
-
-if-else mengeksekusi blok kode jika kondisi bernilai benar, sementara switch-case lebih efisien untuk memilih di antara beberapa nilai konstan[2].
-
-Perulangan (for, while, do-while)
-
-Digunakan untuk mengeksekusi blok kode berulang kali hingga kondisi tertentu terpenuhi.
-
-for biasanya digunakan ketika jumlah iterasi diketahui, sedangkan while dan do-while cocok untuk kondisi yang bergantung pada logika tertentu[1].
-
-Array dan struct
-
-Array adalah kumpulan data dengan tipe yang sama yang disimpan secara berurutan dalam memori.
-
-Struct adalah tipe data bentukan yang memungkinkan kita menyimpan beberapa variabel dengan tipe berbeda dalam satu kesatuan. Penggunaan struct sangat berguna untuk merekam data kompleks, seperti data rapot siswa yang terdiri dari nama dan nilai[1][2].
-
-Dengan kombinasi variabel, kontrol alur, loop, array, dan struct, program dapat melakukan berbagai fungsi mulai dari kalkulator sederhana hingga pengolahan data siswa[1][2].
+Implementasi algoritma dan penggunaan struktur data yang tepat dalam C++ sangat penting untuk menciptakan program yang efisien dan mudah dipelihara. Praktikum ini bertujuan agar mahasiswa memahami dasar-dasar pemrograman, struktur kontrol, dan pengelolaan data menggunakan C++[2].  
 
 ## Guided 
 
@@ -334,6 +322,5 @@ Struktur kontrol seperti percabangan (if-else, switch-case) dan perulangan (for,
 Program yang dibuat selama praktikum menunjukkan penerapan dasar teori, mulai dari input-output sederhana, kalkulator aritmatika, perbandingan angka, hingga pencetakan pola dan pengelolaan data siswa.
 
 ## Referensi
-[1]Indahyanti, U., & Yunianita, R. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-
-[2]Indahyanti, U., & Rahmawati, Y. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. Diakses dari https://press.umsida.ac.id/index.php/umsidapress/article/view/978-623-6833-67-4
+[1]Indahyanti, U., & Yunianita, R. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. https://doi.org/10.21070/2020/978-623-6833-67-4
+<br>[2]Indahyanti, U., & Rahmawati, Y. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. https://press.umsida.ac.id/index.php/umsidapress/article/view/978-623-6833-67-4
