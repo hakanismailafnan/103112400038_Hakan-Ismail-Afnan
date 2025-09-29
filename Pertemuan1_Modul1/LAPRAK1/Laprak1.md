@@ -189,7 +189,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blom/main/strukturdata/c++/Pertemuan1_Modul1/LAPRAK1/Hakan_Ismail_Afnan-Unguided1.png)
+![Screenshot Output Unguided 1_1](https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blom/main/Pertemuan1_Modul1/LAPRAK1/Hakan_Ismail_Afnan-Unguided1.png)
 
 Program ini berfungsi sebagai kalkulator sederhana untuk dua bilangan bulat, melakukan operasi aritmatika dasar.
 
