@@ -652,7 +652,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com//103112400038_Hakan-Ismail-Afnan/blob/main/Pertemuan4_Modul4/LAPRAK/Hakan_Ismail_Afnan-Output-Unguided1.png)
+![Output Program 1](https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blob/main/Pertemuan4_Modul4/LAPRAK/Hakan_Ismail_Afnan-Output-Unguided1.png)
 
 Program C++ ini menerapkan struktur data singly linked list sederhana untuk menyimpan nilai bertipe integer. Berbeda dari versi sebelumnya, program ini menggunakan pointer global bernama head sebagai penunjuk utama dalam pengelolaan list. Berkas Singlylist.h berisi deklarasi struktur Node beserta prototipe fungsi, sedangkan Singlylist.cpp memuat implementasi detail dari berbagai fungsi seperti init, isEmpty, insertFirst, insertLast, insertAfter, deleteFirst, deleteLast, deleteAfter, printList, nbList, dan deleteList. Program utama pada main.cpp memperlihatkan bagaimana fungsi-fungsi tersebut digunakan untuk melakukan operasi penambahan dan penghapusan node dalam list, serta menampilkan hasilnya sesuai dengan urutan skenario yang telah ditentukan.
 
