@@ -78,6 +78,7 @@ float rata2(mahasiswa m){
 ```
 
 #### Program Utama
+
 ```C++
 #include <iostream>
 #include "mahasiswa.h"
@@ -139,6 +140,8 @@ Program ini berfungsi untuk menerima input nama dan dua nilai mahasiswa, lalu me
 ### 1. Buat program yang dapat menyimpan data mahasiswa (max. 10) ke dalam sebuah array dengan field nama, nim, uts, uas, tugas, dan nilai akhir. Nilai akhir diperoleh dari FUNGSI dengan rumus 0.3*uts+0.4*uas+0.3*tugas.
 
 #### STRUCT & DEKLARASI FUNGSI
+
+```C++
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -150,9 +153,11 @@ struct DataMhs {
 
 void isiData(DataMhs &dm);
 float hitungAkhir(DataMhs dm);
+```
 
 #### IMPLEMENTASI FUNGSI
-// Fungsi untuk input data mahasiswa
+
+```C++
 void isiData(DataMhs &dm) {
     cout << "Masukkan Nama Mahasiswa: ";
     cin >> dm.nama;
@@ -166,12 +171,14 @@ void isiData(DataMhs &dm) {
     cin >> dm.tugas;
 }
 
-// Fungsi untuk menghitung nilai akhir
 float hitungAkhir(DataMhs dm) {
     return (0.3 * dm.uts) + (0.4 * dm.uas) + (0.3 * dm.tugas);
 }
+```
 
 #### PROGRAM UTAMA
+
+```C++
 int main() {
     DataMhs mhsArr[10]; // Maksimal 10 mahasiswa
     int jumlah;
@@ -184,13 +191,11 @@ int main() {
         return 0;
     }
 
-    // Input data mahasiswa
     for (int i = 0; i < jumlah; i++) {
         cout << "\nData Mahasiswa ke-" << i + 1 << endl;
         isiData(mhsArr[i]);
     }
 
-    // Tampilkan hasil
     cout << "\n=== Daftar Nilai Akhir Mahasiswa ===" << endl;
     for (int i = 0; i < jumlah; i++) {
         cout << "Nama: " << mhsArr[i].nama
@@ -201,6 +206,7 @@ int main() {
     system("pause");
     return 0;
 }
+```
 
 ### Output Unguided 1 :
 
@@ -233,6 +239,8 @@ Contoh output hasil:
     nilai : STD
 
 #### DEFINISI ADT PELAJARAN
+
+```C++
 #include <iostream>
 #include <string>
 using namespace std;
@@ -241,8 +249,11 @@ struct Pelajaran {
     string namaMapel;
     string kodeMapel;
 };
+```
 
 #### FUNGSI & PROSEDUR ADT
+
+```C++
 Pelajaran create_pelajaran(string namapel, string kodepel) {
     Pelajaran p;
     p.namaMapel = namapel;
@@ -254,8 +265,11 @@ void tampil_pelajaran(Pelajaran pel) {
     cout << "Nama Pelajaran : " << pel.namaMapel << endl;
     cout << "Kode Pelajaran : " << pel.kodeMapel << endl;
 }
+```
 
 #### PROGRAM UTAMA
+
+```C++
 int main() {
     string namapel = "Struktur Data";
     string kodepel = "STD";
@@ -265,6 +279,7 @@ int main() {
 
     return 0;
 }
+```
 
 ### Output Unguided 2 :
 
@@ -279,6 +294,8 @@ Program ini digunakan untuk membuat dan menampilkan data pelajaran menggunakan A
 - fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah pointer
 
 #### PROSEDUR UNTUK MENAMPILKAN ARRAY 2D
+
+```C++
 #include <iostream>
 using namespace std;
 
@@ -290,22 +307,31 @@ void tampilArray(int arr[3][3]) {
         cout << endl;
     }
 }
+```
 
 #### PROSEDUR UNTUK MENUKAR ELEMEN PADA POSISI TERTENTU ANTAR 2 ARRAY
+
+```C++
 void tukarElemen(int arr1[3][3], int arr2[3][3], int baris, int kolom) {
     int temp = arr1[baris][kolom];
     arr1[baris][kolom] = arr2[baris][kolom];
     arr2[baris][kolom] = temp;
 }
+```
 
 #### PROSEDUR UNTUK MENUKAR NILAI YANG DITUNJUK OLEH 2 POINTER
+
+```C++
 void tukarPointer(int *p1, int *p2) {
     int temp = *p1;
     *p1 = *p2;
     *p2 = temp;
 }
+```
 
 #### PROGRAM UTAMA
+
+```C++
 int main() {
     int A[3][3] = {
         {1, 2, 3},
@@ -328,7 +354,6 @@ int main() {
     cout << "Array B sebelum pertukaran:\n";
     tampilArray(B);
 
-    // Menukar elemen di posisi [1][1]
     tukarElemen(A, B, 1, 1);
 
     cout << "\nArray A sesudah pertukaran elemen [1][1]:\n";
@@ -339,7 +364,6 @@ int main() {
     cout << "\nNilai sebelum tukar pointer:\n";
     cout << "x = " << x << ", y = " << y << endl;
 
-    // Menukar nilai melalui pointer
     tukarPointer(p1, p2);
 
     cout << "Nilai sesudah tukar pointer:\n";
@@ -347,7 +371,7 @@ int main() {
 
     return 0;
 }
-
+```
 ### Output Unguided 3 :
 
 ![Screenshot Output Unguided 3](https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blob/main/Pertemuan3_Modul3/Unguided3.png)
