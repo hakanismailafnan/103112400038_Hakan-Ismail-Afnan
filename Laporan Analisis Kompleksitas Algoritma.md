@@ -1,4 +1,6 @@
-# Analisis Perbandingan Algoritma Iteratif dan Rekursif untuk Menghitung Jumlah Huruf Kapital dalam Kalimat
+# <h1 align="center">Analisis Perbandingan Algoritma Iteratif dan Rekursif untuk Menghitung Jumlah Huruf Kapital dalam Kalimat
+</h1>
+<p align="center">Hakan Ismail Afnan - 103112400038</p>
 
 ## 1. Deskripsi Masalah
 Tujuan penelitian ini adalah membandingkan **efisiensi waktu eksekusi** dan **kemudahan implementasi** antara dua pendekatan algoritma — **iteratif** dan **rekursif** — dalam menghitung jumlah huruf kapital pada suatu kalimat.
@@ -63,7 +65,7 @@ Data diperoleh dengan menjalankan program pada ukuran string berbeda (10 hingga 
 
 ## 5. Grafik Perbandingan Waktu Eksekusi
 
-(https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blob/main/HAKAN%20ISMAIL%20AFNAN/AfnanGrafikAKA.png)
+![AKA Output](https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blob/main/HAKAN%20ISMAIL%20AFNAN/AfnanGrafikAKA.png)
 
 ```
 plot:
