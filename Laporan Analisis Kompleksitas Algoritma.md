@@ -63,7 +63,7 @@ Data diperoleh dengan menjalankan program pada ukuran string berbeda (10 hingga 
 
 ## 5. Grafik Perbandingan Waktu Eksekusi
 
-![alt text](<Grafik Perbandingan-1.jpeg>)
+(https://github.com/hakanismailafnan/103112400038_Hakan-Ismail-Afnan/blob/main/Grafik%20Perbandingan.jpeg)
 
 ```
 plot:
